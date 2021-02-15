@@ -1,0 +1,24 @@
+{
+    "name": "thecodinghabit/searchable",
+    "description": "Search in model",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jiten",
+            "email": "jitentharu143@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "TheCodingHabit\\Searchable\\": "src"
+        }
+    },
+    "extra": {
+        "laravel":{
+            "providers":[
+                "TheCodingHabit\\Searchable\\SearchableServiceProvider"
+            ]
+        }
+    }
+}
