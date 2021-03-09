@@ -1,5 +1,6 @@
 {
     "name": "thecodinghabit/searchable",
+    "type": "library",
     "description": "Search in model",
     "license": "MIT",
     "authors": [
@@ -8,10 +9,16 @@
             "email": "jitentharu143@gmail.com"
         }
     ],
+    "minimum-stability": "dev",
     "require": {},
     "autoload": {
         "psr-4": {
             "TheCodingHabit\\Searchable\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+             "TheCodingHabit\\Searchable\\": "src"
         }
     },
     "extra": {
